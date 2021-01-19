@@ -17,22 +17,22 @@ $ python main.py
 ```
 
 ### Example of running your own matchups:
-    ```python
-    chi = Team('CHI', '1991')
-    det = Team('DET', '1986')
-    matchup = Matchup(chi, det, 0)
-    s = Simulation(matchup)
-    s.simulate_matchup(100000)
-    ```
+```python
+chi = Team('CHI', '1991')
+det = Team('DET', '1986')
+matchup = Matchup(chi, det, 0)
+s = Simulation(matchup)
+s.simulate_matchup(100000)
+```
 
 This example tests the matchup of the 'Bad Boy' Pistons against Michael Jordan's 1991 Championship Bulls.
 
 ### Example output:
-    ```
-    Simulated 100000 games...
-    CHI won 75.274% of the games as the home team.
-    DET won 24.726% of the games as the away team.
-    ```
+```
+Simulated 100000 games...
+CHI won 75.274% of the games as the home team.
+DET won 24.726% of the games as the away team.
+```
 
 ## Testing
 
