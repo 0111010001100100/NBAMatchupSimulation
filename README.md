@@ -16,6 +16,18 @@ The following command will run the examples:
 $ python main.py
 ```
 
+Alternatively, this repository contains a dockerfile.
+
+From the NBAMatchupSimulationDirectory:
+```
+$ docker build -t nbamatchupsimulation .
+```
+
+The following command will run the examples:
+```
+$ docker run nbamatchupsimulation
+``` 
+
 ### Example of running your own matchups:
 ```python
 chi = Team('CHI', '1991')
